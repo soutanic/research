@@ -1,6 +1,6 @@
 //ログイン
 function login() {
-    console.log('a')
+    document.body.innerHTML = '';
     var mode = 'login'
     document.write('<div align="center">');
     document.write('<html lang="ja">');
