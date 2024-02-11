@@ -73,4 +73,3 @@ function composite() {
     }
 }
 console.log('hello')
-login()
