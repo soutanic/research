@@ -5,8 +5,6 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <script src="research.js"></script>
-        <script src="alphabet.js"></script>
-        <script src="research_letter.js"></script>
+        <p>hello</p>
     </body>
 </html>
