@@ -19,9 +19,6 @@
     </style>
 </head>
 <body>
-    <script src="research.js"></script>
-    <script src="alphabet.js"></script>
-    <script src="research_letter.js"></script>
     <div align="center">
         <h1>sota005研究所</h1>
         <h2>ログインコードを入力してください</h2>
@@ -31,5 +28,8 @@
     <a href="https://soutanic.github.io/home/">
         <div style="position: fixed; bottom: 0; right: 0;">sota005について</div>
     </a>
+    <script src="research.js"></script>
+    <script src="alphabet.js"></script>
+    <script src="research_letter.js"></script>
 </body>
 </html>
