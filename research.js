@@ -1,7 +1,6 @@
 //ログイン
 function login() {
     var mode = 'login'
-    document.body.innerHTML = '';
     document.write('<div align="center">');
     document.write('<html lang="ja">');
     document.write('<head>');
@@ -73,3 +72,4 @@ function composite() {
     }
 }
 console.log('hello')
+login()
