@@ -68,6 +68,8 @@ function composite() {
                 result += alphabet[user_index-1];
             }
         }
+        result=result.replace(new RegExp('卍','g'),"'");
+	    result=result.replace(new RegExp('襟','g')," ");
         home(result);
 
     }
