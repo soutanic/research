@@ -83,7 +83,6 @@ function composite() {
         }
         result=result.replace(new RegExp('卍','g'),"'");
 	    result=result.replace(new RegExp('襟','g')," ");
-	alert('ログインしました')
         home(result,new_login);
 
     }
