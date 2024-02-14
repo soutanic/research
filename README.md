@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -33,7 +32,7 @@
     <div align="center">
         <h1>sota005研究所</h1>
         <h2>ログインコードを入力してください</h2>
-        <input type="text" style="width: 300px; height: 30px;" placeholder="ログインコードを入力" id="login_code"></input>
+        <input type="text" style="width: 300px; height: 30px;" placeholder="ログインコードを入力" id="login_code">
         <button onclick="composite()" style="width: 100px; height: 35px;" class="btn btn-solid"><span>ログイン</span></button>
         <br>
         <label for="code_none" style="font-size: 13px;">次からログインコード入力しなくてもログインできるようにする:</label>
