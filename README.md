@@ -16,6 +16,14 @@
             border-radius: 0;
             background: #11a37f;
         }
+        p.more_login {
+            position: absolute;
+                top: 0px;
+                right: 15px;
+                background-color: #ffffff;
+                padding: 5px; 
+                display: inline;
+        }
     </style>
 </head>
 <body>
@@ -30,13 +38,18 @@
         <br>
         <label for="code_none" style="font-size: 13px;">次からログインコード入力しなくてもログインできるようにする:</label>
         <input type="checkbox" id="code_none">
+        <p class="more_login" onclick="login_click()">login</p>
     </div>
     <a href="https://soutanic.github.io/home/">
         <div style="position: fixed; bottom: 0; right: 0;">sota005について</div>
     </a>
-    <script> 
-        if (localStorage.getItem('key')!=null){
-            composite()
+    <script>
+        function login_click() {
+            if (localStorage.getItem('key')!=null){
+                composite()
+            }else{
+                alert('ログインできません')
+            }
         }
     </script>
 </body>
