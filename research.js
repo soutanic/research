@@ -1,5 +1,5 @@
 //ログイン
-function login() {
+function login(login_go) {
     var mode = 'login'
     document.body.innerHTML = '';
     document.write('<div align="center">');
@@ -26,8 +26,11 @@ function login() {
     document.write('<button onclick="composite()" style="width: 100px; height: 35px;" class="btn btn-solid"><span>ログイン</span></button>');
     document.write('</div>');
     document.write('<a href="https://soutanic.github.io/home/"><div style="position: fixed; bottom: 0; right: 0;">sota005について</div></a>');
+    if (login_go==true) {
+    document.write('<script>composite()</script>')
     document.write('</body>');
     document.write('</html>');
+    }
 }
 function home(text,new_login) {
     if (new_login==true) {
@@ -35,16 +38,16 @@ function home(text,new_login) {
     }
     mode = 'home';
     document.body.innerHTML = '';
-    document.write('<html lang="ja">')
-    document.write('<title>'+mode+'</title>')
-    document.write('<style>')
+    document.write('<html lang="ja">');
+    document.write('<title>'+mode+'</title>');
+    document.write('<style>');
     document.write('body {background-color:#ffc68e}');
-    document.write('</style>')
-    document.write('<body>')
-    document.write('<button onclick="login()">戻る</button>');
+    document.write('</style>');
+    document.write('<body>');
+    document.write('<button onclick="login(false)">戻る</button>');
     document.write(text);
-    document.write('</body>')
-    document.write('</html>')
+    document.write('</body>');
+    document.write('</html>');
 }
 //復号化
 function composite() {
